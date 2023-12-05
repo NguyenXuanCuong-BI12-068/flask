@@ -1,0 +1,6 @@
+{ "tim": 
+    {"age":18, 
+    "gender": "male"},
+"lily": 
+    {"age":20, 
+    "gender": "female"}}

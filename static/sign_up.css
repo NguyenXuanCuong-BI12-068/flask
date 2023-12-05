@@ -1,0 +1,15 @@
+#sign-up{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    top: 50%;
+    transform: translateY(50%);
+}
+#btn{
+    width: 70px;
+    height: 25px;
+    margin-top: 20px;
+}

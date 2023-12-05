@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='sign_in.css') }}"> -->
+    <link rel="stylesheet" href="/static/sign_in.css">
+</head>
+<body>
+  
+  <form action="/login" method="post" id="sign-in">
+    <h1>Sign in</h1>
+    Username:
+    <input type="text" placeholder="username" name="username" >
+    Password
+    <input type="password" placeholder="password" name="password">
+    <button id="btn">Login</button>
+    <p><a href="/sign_up">Don't have account</a></p>
+    {% if error_message %}
+    <div class="error-message">{{ error_message }}</div>
+    {% endif %}
+  </form>
+
+</body>
+</html>
